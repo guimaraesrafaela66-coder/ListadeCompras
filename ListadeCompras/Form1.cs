@@ -16,5 +16,25 @@ namespace ListadeCompras
         {
             InitializeComponent();
         }
+
+        private void pibLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdicionar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
