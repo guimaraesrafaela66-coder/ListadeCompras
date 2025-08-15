@@ -43,9 +43,9 @@
             // pibLogo
             // 
             this.pibLogo.Image = global::ListadeCompras.Properties.Resources.Rockettheme_Ecommerce_Basket_256__3_;
-            this.pibLogo.Location = new System.Drawing.Point(29, 44);
+            this.pibLogo.Location = new System.Drawing.Point(54, 44);
             this.pibLogo.Name = "pibLogo";
-            this.pibLogo.Size = new System.Drawing.Size(121, 77);
+            this.pibLogo.Size = new System.Drawing.Size(96, 77);
             this.pibLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pibLogo.TabIndex = 0;
             this.pibLogo.TabStop = false;
@@ -74,10 +74,11 @@
             // 
             // txbProduto
             // 
-            this.txbProduto.Location = new System.Drawing.Point(54, 251);
+            this.txbProduto.Location = new System.Drawing.Point(42, 251);
             this.txbProduto.Name = "txbProduto";
             this.txbProduto.Size = new System.Drawing.Size(191, 23);
             this.txbProduto.TabIndex = 3;
+            this.txbProduto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbProduto_KeyDown);
             // 
             // btnAdicionar
             // 
@@ -106,6 +107,7 @@
             this.btnExcluir.TabIndex = 6;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnLimpar
             // 
@@ -115,6 +117,7 @@
             this.btnLimpar.TabIndex = 7;
             this.btnLimpar.Text = "Limpar Lista";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // Form1
             // 
