@@ -78,6 +78,7 @@
             this.txbProduto.Name = "txbProduto";
             this.txbProduto.Size = new System.Drawing.Size(191, 23);
             this.txbProduto.TabIndex = 3;
+            this.txbProduto.TextChanged += new System.EventHandler(this.Arroz);
             this.txbProduto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbProduto_KeyDown);
             // 
             // btnAdicionar
@@ -94,9 +95,9 @@
             // 
             this.libCompras.FormattingEnabled = true;
             this.libCompras.ItemHeight = 16;
-            this.libCompras.Location = new System.Drawing.Point(353, 251);
+            this.libCompras.Location = new System.Drawing.Point(266, 107);
             this.libCompras.Name = "libCompras";
-            this.libCompras.Size = new System.Drawing.Size(205, 180);
+            this.libCompras.Size = new System.Drawing.Size(283, 324);
             this.libCompras.TabIndex = 5;
             // 
             // btnExcluir

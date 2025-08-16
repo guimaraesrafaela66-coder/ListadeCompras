@@ -120,5 +120,10 @@ namespace ListadeCompras
                 btnAdicionar.PerformClick();
             }
         }
+
+        private void Arroz(object sender, EventArgs e)
+        {
+
+        }
     }
 }
